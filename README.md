@@ -6,6 +6,10 @@ Se utilizo el bloque `Transformer Encoder` de la arquitectura Transformers publi
 
 El programa puede ser ejecutado con Python o mediante un ejecutable .exe para windows sin necesidad de instalar librerias externas. Para su ejecución con Python seguir el proceso de instalación.
 
+## Programa ejecutable para windows
+
+El programa puede ser descargado del siguiente link: https://drive.google.com/drive/folders/1eIwQcELxASIz4WhQICrakfWjcq_kSUj1?usp=sharing , no se necesita instalar nada externo. Solo descomprimir el archivo .rar y dirigirse a la carpeta dist/ y encontrara el programa como Traductor_LSB.exe
+
 ## Instalación
 
 - Instalar [Python](https://www.python.org/downloads/). La version utilizada en este proyecto fue Python 3.10.10
@@ -41,6 +45,7 @@ python Traductor_LSB.py
 Se mostrara la interfaz de usuario del programa.
 
 [![GUI-LSB.png](https://i.postimg.cc/PfzPJpXT/GUI-LSB.png)](https://postimg.cc/9z0WNfwn)
+
 
 ## Funcionamiento del programa
 
