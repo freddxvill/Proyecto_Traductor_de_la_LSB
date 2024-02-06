@@ -44,4 +44,9 @@ Se mostrara la interfaz de usuario del programa.
 
 ## Funcionamiento del programa
 
-El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 indica que se usara la camara interna del computador en otro caso sera una camara externa conectada.El programa captura a una persona realizando una seña durante 30 fotogramas, ya sea estatica o dinámica. Luego de los 30 fotogramas capturados, los datos se envian al modelo para realizar la prediccion de la seña. El program muestra debajo la letra,número o palabra predicha.
+El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 indica que se usara la camara interna del computador en otro caso sera una camara externa conectada. El programa captura a una persona realizando una seña durante 30 fotogramas, ya sea una seña estatica o dinámica. Luego de los 30 fotogramas capturados, los datos se envian al modelo para realizar la prediccion de la seña. El program muestra debajo la letra,número o palabra predicha. El texto predicho se va concatenando formando asi oraciones mas largas. 
+
+## Notas
+
+- Se puede implementar un pipeline de reentrenamiento. Esto se sigue desarrollando y lo tendra en una version futura.
+- Las datos de utilizados se guardaron en formato Zarr, ya que maneja y reduce el tamaño de arreglos multidimensionales que alimentan al modelo. Las etiquetas se guardaron en formato numpy.
