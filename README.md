@@ -6,11 +6,11 @@ Se utilizo el bloque `Transformer Encoder` de la arquitectura Transformers publi
 
 El programa puede ser ejecutado con Python o mediante un ejecutable .exe para windows sin necesidad de instalar librerias externas. Para su ejecución con Python seguir el proceso de instalación.
 
-## Programa ejecutable para windows
+## Opción 1: Programa ejecutable para Windows
 
 El programa puede ser descargado del siguiente link: https://drive.google.com/drive/folders/1eIwQcELxASIz4WhQICrakfWjcq_kSUj1?usp=sharing , no se necesita instalar nada externo. Solo descomprimir el archivo .rar y dirigirse a la carpeta dist/ y encontrara el programa como Traductor_LSB.exe
 
-## Instalación
+## Opción 2: Instalación con Python
 
 - Instalar [Python](https://www.python.org/downloads/). La version utilizada en este proyecto fue Python 3.10.10
 - Descargar o clonar el codigo en una carpeta con git.
@@ -55,3 +55,4 @@ El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 i
 
 - Se puede implementar un pipeline de reentrenamiento. Esto se sigue desarrollando y lo tendra en una version futura.
 - Las datos de utilizados se guardaron en formato Zarr, ya que maneja y reduce el tamaño de arreglos multidimensionales que alimentan al modelo. Las etiquetas se guardaron en formato numpy.
+- La captura de la seña se debe realizar a una distancia de 60 cm con respecto a la camara frontal.
