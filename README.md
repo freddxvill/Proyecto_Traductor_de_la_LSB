@@ -54,6 +54,7 @@ El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 i
 ## Señas Reconocidas por el programa
 
 [![CUADRO-SENIAS.png](https://i.postimg.cc/9QD31Rwj/CUADRO-SENIAS.png)](https://postimg.cc/yDCr8NTf)
+
 En total se reconocen 58 clases o señas, que cubren tanto señas estáicas como dinámicas.
 
 ## Notas
