@@ -1,6 +1,6 @@
 # Traductor del deletreo manual de la Lengua de Señas Boliviana a texto
 
-Programa traductor de la lengua se señas boliviana a texto  utilizando Pytorch y PyQt5. El programa fue entrenado para reconocer el alfabeto dactilologico boliviano, numeros del 0-10 y otras 19 palabras, con el fin de desarrollar un modelo que sea capaz predecir tanto señas estaticas como dinámicas. El tamaño del conjunto de datos fue de 5800 secuencias capturadas con ayuda de Mediapipe. El modelo fue desarrollado utilizando el framework de aprendizaje profundo [Pytorch](https://pytorch.org/) y [Pytorch lightning](https://lightning.ai/). L interfaz de usuario se creo usando la libreria de PyQt5, que puede ser actualizado a la version 6.
+Programa traductor de la lengua se señas boliviana a texto  utilizando Pytorch y PyQt5. El programa fue entrenado para reconocer el alfabeto dactilologico boliviano, numeros del 0-10 y otras 19 palabras, con el fin de desarrollar un modelo que sea capaz predecir tanto **señas estaticas como dinámicas**. El tamaño del conjunto de datos fue de 5800 secuencias capturadas con ayuda de Mediapipe. El modelo fue desarrollado utilizando el framework de aprendizaje profundo [Pytorch](https://pytorch.org/) y [Pytorch lightning](https://lightning.ai/). L interfaz de usuario se creo usando la libreria de PyQt5, que puede ser actualizado a la version 6.
 
 Se utilizo el bloque `Transformer Encoder` de la arquitectura Transformers publicado en el paper [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) para realizar la clasificación de secuencias, que en este caso se captura la posicion de las manos y la pose del cuerpo utilizando la camara frontal del computador con OpenCV y Mediapipe. No se entrena al modelo con los puntos o coordenadas obtenidos sino que se realizo el proceso de Data Augmentation para obtener nuevas relaciones o caracteristicas. Se calculo distancias dentro de las manos y fuera de ellas, asi como tambien angulos. 
 
@@ -50,6 +50,11 @@ Se mostrara la interfaz de usuario del programa.
 ## Funcionamiento del programa
 
 El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 indica que se usara la camara interna del computador en otro caso sera una camara externa conectada. El programa captura a una persona realizando una seña durante 30 fotogramas, ya sea una seña estatica o dinámica. Luego de los 30 fotogramas capturados, los datos se envian al modelo para realizar la prediccion de la seña. El program muestra debajo la letra,número o palabra predicha. El texto predicho se va concatenando formando asi oraciones mas largas. 
+
+## Señas Reconocidas por el programa
+
+[![CUADRO-SENIAS.png](https://i.postimg.cc/9QD31Rwj/CUADRO-SENIAS.png)](https://postimg.cc/yDCr8NTf)
+En total se reconocen 58 clases o señas, que cubren tanto señas estaticas como dimanicas.
 
 ## Notas
 
