@@ -51,9 +51,6 @@ Se mostrara la interfaz de usuario del programa.
 
 El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 indica que se usara la camara interna del computador en otro caso sera una camara externa conectada. El programa captura a una persona realizando una seña durante 30 fotogramas, ya sea una seña estática o dinámica. Luego de los 30 fotogramas capturados, los datos se envian al modelo para realizar la prediccion de la seña. El program muestra debajo la letra,número o palabra predicha. El texto predicho se va concatenando formando asi oraciones mas largas.
  
-<p align="center">
-[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DYr-4cGZarK4%26t%3D33s&width=640&height=400&filetype=gif)](https://www.youtube.com/watch?v=Yr-4cGZarK4&t=33s)
-</p>
 
 ## Señas Reconocidas por el programa
 
