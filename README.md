@@ -1,4 +1,4 @@
-# Traductor del deletreo manual de la Lengua de Señas Boliviana a texto
+# 🖐️ Traductor del deletreo manual de la Lengua de Señas Boliviana a texto 🇧🇴
 
 Programa traductor de la lengua se señas boliviana a texto  utilizando Pytorch y PyQt5. El programa fue entrenado para reconocer el alfabeto dactilologico boliviano, numeros del 0-10 y otras 19 palabras, con el fin de desarrollar un modelo que sea capaz predecir tanto **señas estáticas como dinámicas**. El tamaño del conjunto de datos fue de 5800 secuencias capturadas con ayuda de Mediapipe. El modelo fue desarrollado utilizando el framework de aprendizaje profundo [Pytorch](https://pytorch.org/) y [Pytorch lightning](https://lightning.ai/). L interfaz de usuario se creo usando la libreria de PyQt5, que puede ser actualizado a la version 6.
 
