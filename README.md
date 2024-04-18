@@ -4,7 +4,7 @@ Programa traductor de la lengua se señas boliviana a texto  utilizando Pytorch 
 
 Se utilizo el bloque `Transformer Encoder` de la arquitectura Transformers publicado en el paper [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) para realizar la clasificación de secuencias, que en este caso se captura la posicion de las manos y la pose del cuerpo utilizando la camara frontal del computador con OpenCV y Mediapipe. No se entrena al modelo con los puntos o coordenadas obtenidos sino que se realizo el proceso de Data Augmentation para obtener nuevas relaciones o caracteristicas. Se calculo distancias dentro de las manos y fuera de ellas, asi como tambien angulos. 
 
-El programa puede ser ejecutado con Python o mediante un ejecutable .exe para windows sin necesidad de instalar librerias externas. Para su ejecución con Python seguir el proceso de instalación.
+El programa puede ser ejecutado con Python o mediante un ejecutable .exe para windows sin necesidad de instalar librerias externas (opción 1). Para su ejecución con Python seguir el proceso de instalación de la opción 2.
 
 ## Opción 1: Programa ejecutable para Windows
 
