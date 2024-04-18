@@ -50,7 +50,10 @@ Se mostrara la interfaz de usuario del programa.
 ## Funcionamiento del programa
 
 El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 indica que se usara la camara interna del computador en otro caso sera una camara externa conectada. El programa captura a una persona realizando una seña durante 30 fotogramas, ya sea una seña estática o dinámica. Luego de los 30 fotogramas capturados, los datos se envian al modelo para realizar la prediccion de la seña. El program muestra debajo la letra,número o palabra predicha. El texto predicho se va concatenando formando asi oraciones mas largas.
- 
+
+## Arquitectura del modelo
+
+[![github-lsb-proyect-img.png](https://i.postimg.cc/Xq1VnSMs/github-lsb-proyect-img.png)](https://postimg.cc/CnDy42x8)
 
 ## Señas Reconocidas por el programa
 
@@ -63,3 +66,4 @@ En total se reconocen 58 clases o señas, que cubren tanto señas estáticas com
 - Se puede implementar un pipeline de reentrenamiento. Esto se sigue desarrollando y lo tendra en una version futura.
 - Las datos de utilizados se guardaron en formato Zarr, ya que maneja y reduce el tamaño de arreglos multidimensionales que alimentan al modelo. Las etiquetas se guardaron en formato numpy.
 - La captura de la seña se debe realizar a una distancia de 60 cm con respecto a la camara frontal.
+- EL nivel de luz se debe encontrar dentro del rango de 70 y 150 Lux para el uso de la herramienta de traducción.
