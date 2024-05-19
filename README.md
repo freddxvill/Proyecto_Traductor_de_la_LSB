@@ -57,7 +57,38 @@ El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 i
 
 ## Señas Reconocidas por el programa
 
-[![CUADRO-SENIAS.png](https://i.postimg.cc/9QD31Rwj/CUADRO-SENIAS.png)](https://postimg.cc/yDCr8NTf)
+| Clase | Codificación | Clase       | Codificación | Clase        | Codificación |
+|-------|--------------|-------------|--------------|--------------|--------------|
+| 0     | 0            | E           | 15           | R            | 29           |
+| 1     | 1            | F           | 16           | S            | 30           |
+| 2     | 2            | G           | 17           | T            | 31           |
+| 3     | 3            | H           | 18           | U            | 32           |
+| 4     | 4            | I           | 19           | V            | 33           |
+| 5     | 5            | J           | 20           | W            | 34           |
+| 6     | 6            | K           | 21           | X            | 35           |
+| 7     | 7            | L           | 22           | Y            | 36           |
+| 8     | 8            | LL          | 23           | Z            | 37           |
+| 9     | 9            | M           | 24           | espacio      | 38           |
+| 10    | 10           | N           | 25           | Hola         | 39           |
+| A     | 11           | Ñ           | 26           | Buenos días  | 40           |
+| B     | 12           | O           | 0            | Gracias      | 41           |
+| C     | 13           | P           | 27           | Por favor    | 42           |
+| D     | 14           | Q           | 28           | Yo           | 43           |
+|       |              |             |              | Abogado      | 44           |
+|       |              |             |              | Doctor       | 45           |
+|       |              |             |              | Electricista | 46           |
+|       |              |             |              | Policía      | 47           |
+|       |              |             |              | Presidente   | 48           |
+|       |              |             |              | Profesor     | 49           |
+|       |              |             |              | Nombre       | 50           |
+|       |              |             |              | ser/estar    | 51           |
+|       |              |             |              | Mi           | 52           |
+|       |              |             |              | Trabajo      | 53           |
+|       |              |             |              | La Paz       | 54           |
+|       |              |             |              | Sucre        | 55           |
+|       |              |             |              | Cochabamba   | 56           |
+|       |              |             |              | Vivir        | 57           |
+
 
 En total se reconocen 58 clases o señas, que cubren tanto señas estáticas como dinámicas.
 
