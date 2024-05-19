@@ -57,8 +57,12 @@ El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 i
 
 ## Señas Reconocidas por el programa
 
+Se reconocen 58 clases o señas, que cubren tanto señas estáticas como dinámicas.
+
+<div align="center">
+
 | Clase | Codificación | Clase        | Codificación |
-|-------|--------------|--------------|--------------|
+|:-----:|:------------:|:------------:|:------------:|
 | 0     | 0            | R            | 29           |
 | 1     | 1            | S            | 30           |
 | 2     | 2            | T            | 31           |
@@ -88,10 +92,10 @@ El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 i
 | Ñ     | 26           | Sucre        | 55           |
 | O     | 0           | Cochabamba   | 56           |
 | P     | 27           | Vivir        | 57           |
-| Q     | 28           |               |            |
+| P     | 28           |         |          |
 
+</div>
 
-En total se reconocen 58 clases o señas, que cubren tanto señas estáticas como dinámicas.
 
 ## Notas
 
