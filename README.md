@@ -1,6 +1,6 @@
 # 🖐️ Traductor del deletreo manual de la Lengua de Señas Boliviana a texto 🇧🇴
 
-Programa traductor de la lengua se señas boliviana a texto  utilizando Pytorch y PyQt5. El programa fue entrenado para reconocer el alfabeto dactilologico boliviano, numeros del 0-10 y otras 19 palabras, con el fin de desarrollar un modelo que sea capaz predecir tanto **señas estáticas como dinámicas**. El tamaño del conjunto de datos fue de 5800 secuencias capturadas con ayuda de Mediapipe. El modelo fue desarrollado utilizando el framework de aprendizaje profundo [Pytorch](https://pytorch.org/) y [Pytorch lightning](https://lightning.ai/). L interfaz de usuario se creo usando la libreria de PyQt5, que puede ser actualizado a la version 6.
+Programa traductor de la lengua se señas boliviana a texto  utilizando Pytorch y PyQt5. El programa fue entrenado para reconocer el alfabeto dactilologico boliviano, numeros del 0-10 y otras 19 palabras, con el fin de desarrollar un modelo que sea capaz predecir tanto **señas estáticas como dinámicas**. El tamaño del conjunto de datos fue de 5800 secuencias capturadas con ayuda de Mediapipe. El modelo fue desarrollado utilizando el framework de aprendizaje profundo [Pytorch](https://pytorch.org/) y [Pytorch lightning](https://lightning.ai/). La interfaz de usuario se creo usando la libreria PyQt5, que puede ser actualizado a la version 6.
 
 Se utilizo el bloque `Transformer Encoder` de la arquitectura Transformers publicado en el paper [Attention Is All You Need](https://proceedings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) para realizar la clasificación de secuencias, que en este caso se captura la posicion de las manos y la pose del cuerpo utilizando la camara frontal del computador con OpenCV y Mediapipe. No se entrena al modelo con los puntos o coordenadas obtenidos sino que se realizo el proceso de Data Augmentation para obtener nuevas relaciones o caracteristicas. Se calculo distancias dentro de las manos y fuera de ellas, asi como tambien angulos. 
 
@@ -8,7 +8,7 @@ El programa puede ser ejecutado con Python o mediante un ejecutable .exe para wi
 
 ## Opción 1: Programa ejecutable para Windows
 
-El programa puede ser descargado del siguiente link: https://drive.google.com/drive/folders/1eIwQcELxASIz4WhQICrakfWjcq_kSUj1?usp=sharing , no se necesita instalar nada externo. Solo descomprimir el archivo .rar y dirigirse a la carpeta dist/ y encontrara el programa como Traductor_LSB.exe
+El programa puede ser descargado del siguiente link (179 MB): https://drive.google.com/drive/folders/1eIwQcELxASIz4WhQICrakfWjcq_kSUj1?usp=sharing , no se necesita instalar nada externo. Solo descomprimir el archivo .rar y encontrara el programa como Traductor_LSB.exe
 
 ## Opción 2: Instalación con Python
 
@@ -53,7 +53,7 @@ El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 i
 
 ## Arquitectura del modelo
 
-[![github-lsb-proyect-img.png](https://i.postimg.cc/Xq1VnSMs/github-lsb-proyect-img.png)](https://postimg.cc/CnDy42x8)
+[![git-lsb-proyect.png](https://i.postimg.cc/qvD6Ykrh/git-lsb-proyect.png)](https://postimg.cc/nX7L9fCp)
 
 ## Señas Reconocidas por el programa
 
