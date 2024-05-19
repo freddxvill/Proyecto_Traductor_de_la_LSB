@@ -64,6 +64,6 @@ En total se reconocen 58 clases o señas, que cubren tanto señas estáticas com
 ## Notas
 
 - Se puede implementar un pipeline de reentrenamiento. Esto se sigue desarrollando y lo tendra en una version futura.
-- Las datos de utilizados se guardaron en formato Zarr, ya que maneja y reduce el tamaño de arreglos multidimensionales que alimentan al modelo. Las etiquetas se guardaron en formato numpy.
-- La captura de la seña se debe realizar a una distancia de 60 cm con respecto a la camara frontal.
+- Los datos utilizados se guardaron en formato Zarr, ya que maneja y reduce el tamaño de arreglos multidimensionales que alimentan al modelo. Las etiquetas se guardaron en vectores con formato numpy.
+- La captura de la seña se debe realizar a una distancia de 60 +- 10cm con respecto a la camara frontal.
 - EL nivel de luz se debe encontrar dentro del rango de 70 y 150 Lux para el uso de la herramienta de traducción.
