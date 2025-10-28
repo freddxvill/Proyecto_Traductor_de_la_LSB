@@ -108,6 +108,6 @@ Se reconocen 58 clases o señas, que cubren tanto señas estáticas como dinámi
 
 Si desea referenciar este proyecto en un trabajo académico o publicación, puede usar la siguiente cita en formato APA:
 
-> Villca, Freddy. (2025). Traductor del deletreo manual de la Lengua de Señas Boliviana a texto utilizando lgoritmos de aprendizaje automático.[Repositorio GitHub]. GitHub. [https://github.com/freddxvill/Proyecto_Traductor_de_la_LSB](https://github.com/freddxvill/Proyecto_Traductor_de_la_LSB
+> Villca Villegas, F. (2025). Traductor del deletreo manual de la Lengua de Señas Boliviana a texto utilizando lgoritmos de aprendizaje automático.[Repositorio GitHub]. GitHub. [https://github.com/freddxvill/Proyecto_Traductor_de_la_LSB](https://github.com/freddxvill/Proyecto_Traductor_de_la_LSB
 
 
