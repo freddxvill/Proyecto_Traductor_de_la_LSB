@@ -103,3 +103,15 @@ Se reconocen 58 clases o señas, que cubren tanto señas estáticas como dinámi
 - Los datos utilizados se guardaron en formato Zarr, ya que maneja y reduce el tamaño de arreglos multidimensionales que alimentan al modelo. Las etiquetas se guardaron en vectores con formato numpy.
 - La captura de la seña se debe realizar a una distancia de 60 +- 10cm con respecto a la camara frontal.
 - EL nivel de luz se debe encontrar dentro del rango de 70 y 150 Lux para el uso de la herramienta de traducción.
+
+## 📚 Cómo citar este proyecto
+
+Si desea referenciar este proyecto en un trabajo académico o publicación, puede usar la siguiente cita en formato APA:
+
+> Villca, Freddy. (2025). Traductor del deletreo manual de la Lengua de Señas Boliviana a texto utilizando lgoritmos de aprendizaje automático.[Repositorio GitHub]. GitHub. [https://github.com/freddxvill/Proyecto_Traductor_de_la_LSB](https://github.com/freddxvill/Proyecto_Traductor_de_la_LSB)
+
+También puede copiar directamente:
+
+```text
+Vill, F. (2025). Proyecto Traductor de la LSB [Repositorio GitHub]. GitHub. https://github.com/freddxvill/Proyecto_Traductor_de_la_LSB
+
