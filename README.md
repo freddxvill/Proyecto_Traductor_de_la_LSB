@@ -51,7 +51,7 @@ Se mostrara la interfaz de usuario del programa.
 
 El programa inicia pulsando el boton iniciar. Se debe seleccionar la camara, 0 indica que se usara la camara interna del computador en otro caso sera una camara externa conectada. El programa captura a una persona realizando una seña durante 30 fotogramas, ya sea una seña estática o dinámica. Luego de los 30 fotogramas capturados, los datos se envian al modelo para realizar la prediccion de la seña. El program muestra debajo la letra,número o palabra predicha. El texto predicho se va concatenando formando asi oraciones mas largas.
 
-## Arquitectura del modelo
+## Funcionamiento simplificado del modelo
 
 [![git-lsb-proyect.png](https://i.postimg.cc/qvD6Ykrh/git-lsb-proyect.png)](https://postimg.cc/nX7L9fCp)
 
